@@ -60,3 +60,5 @@ D:\Personal\Projects\Git\teamcityproject\TeamCityProject.Tests\bin\Debug\System.
 D:\Personal\Projects\Git\teamcityproject\TeamCityProject.Tests\obj\Debug\TeamCityProject.Tests.csprojResolveAssemblyReference.cache
 D:\Personal\Projects\Git\teamcityproject\TeamCityProject.Tests\obj\Debug\TeamCityProject.Tests.dll
 D:\Personal\Projects\Git\teamcityproject\TeamCityProject.Tests\obj\Debug\TeamCityProject.Tests.pdb
+D:\Personal\Projects\Git\TeamCityProject\TeamCityProject.Tests\bin\Debug\nunit.framework.dll
+D:\Personal\Projects\Git\TeamCityProject\TeamCityProject.Tests\bin\Debug\nunit.framework.xml

@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TeamCityProject;
 using TeamCityProject.Controllers;
+using NUnit.Framework;
 
 namespace TeamCityProject.Tests.Controllers
 {
-    [TestClass]
+    [TestFixture]
     public class HomeControllerTest
     {
-        [TestMethod]
+        [TestCase]
         public void Index()
         {
             // Arrange
@@ -25,7 +25,7 @@ namespace TeamCityProject.Tests.Controllers
             Assert.IsNotNull(result);
         }
 
-        [TestMethod]
+        [TestCase]
         public void About()
         {
             // Arrange
@@ -38,7 +38,7 @@ namespace TeamCityProject.Tests.Controllers
             Assert.AreEqual("Your application description page.", result.ViewBag.Message);
         }
 
-        [TestMethod]
+        [TestCase]
         public void Contact()
         {
             // Arrange
